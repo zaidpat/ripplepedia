@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400"><title>Ripplepedia</title><defs><linearGradient id="g1" gradientUnits="userSpaceOnUse" x1="30" y1="40" x2="370" y2="360"><stop offset="0" stop-color="#8A6205"/><stop offset="0.5" stop-color="#F0B93D"/><stop offset="1" stop-color="#FFF0C2"/></linearGradient><linearGradient id="g2" gradientUnits="userSpaceOnUse" x1="30" y1="40" x2="370" y2="360"><stop offset="0" stop-color="#7A5504"/><stop offset="0.5" stop-color="#E0A62A"/><stop offset="1" stop-color="#FADD9B"/></linearGradient><linearGradient id="g3" gradientUnits="userSpaceOnUse" x1="30" y1="40" x2="370" y2="360"><stop offset="0" stop-color="#63430A"/><stop offset="0.5" stop-color="#C98A1E"/><stop offset="1" stop-color="#EEC373"/></linearGradient><linearGradient id="g4" gradientUnits="userSpaceOnUse" x1="30" y1="40" x2="370" y2="360"><stop offset="0" stop-color="#4A3008"/><stop offset="0.5" stop-color="#A66A12"/><stop offset="1" stop-color="#D9A24E"/></linearGradient><linearGradient id="gDrop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF0C2"/><stop offset="1" stop-color="#E0A62A"/></linearGradient></defs>
+  <path d="M390.13,226.72 A192,192 0 1 1 220.07,9.05 A180.76,180.76 0 1 0 390.13,226.72 Z" fill="url(#g1)"/>
+  <path d="M349.28,260.31 A161,161 0 1 1 244.38,45.24 A151.99,151.99 0 1 0 349.28,260.31 Z" fill="url(#g2)"/>
+  <path d="M305.98,277.00 A131,131 0 1 1 257.43,82.26 A123.77,123.77 0 1 0 305.98,277.00 Z" fill="url(#g3)"/>
+  <path d="M266.21,278.90 A103,103 0 1 1 260.54,116.67 A97.46,97.46 0 1 0 266.21,278.90 Z" fill="url(#g4)"/>
+  <g transform="translate(0 -16)">
+  <g fill="none" stroke="#F3E3BC" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M181 152 V236"/>
+    <path d="M181 152 H212 A29 29 0 0 1 212 210 H181"/>
+    <path d="M208 212 L238 244"/>
+  </g>
+  <path d="M209 172 C209 172 199 184 199 191 A10 10 0 0 0 219 191 C219 184 209 172 209 172 Z" fill="url(#gDrop)"/>
+  <path d="M198 268 C186 258 170 256 154 260 L154 282 C170 278 186 280 198 290 Z" fill="#C9A050"/>
+  <path d="M202 268 C214 258 230 256 246 260 L246 282 C230 278 214 280 202 290 Z" fill="#C9A050"/>
+  </g>
+</svg>
