@@ -15,9 +15,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://ripplepedia.com/assets/og-image.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/fraunces-italic-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="stylesheet" href="styles.css">
@@ -96,7 +95,12 @@
       </div>
 
       <div class="work-card">
-        <iframe class="thumb" style="aspect-ratio:16/9;" src="https://player.vimeo.com/video/1225204789?title=0&amp;byline=0&amp;portrait=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        <div class="thumb vimeo-lite" style="aspect-ratio:16/9;" data-src="https://player.vimeo.com/video/1225204789?title=0&amp;byline=0&amp;portrait=0&amp;dnt=1&amp;autoplay=1" data-title="Nobody's Watching on Vimeo">
+          <button type="button" class="vimeo-btn" style="background-image:url('footage/posters/nobodys-watching.jpg');" aria-label="Play Nobody's Watching (loads from Vimeo)">
+            <span class="play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="vimeo-note">Plays from Vimeo. Pressing play loads the video from Vimeo's servers.</span>
+          </button>
+        </div>
         <p class="project-title">Nobody's Watching</p>
         <p class="work-caption">Short Film &middot; Wonder Studios x CapCut &middot; 2:29</p>
       </div>
@@ -110,6 +114,8 @@
       </div>
 
     </div>
+
+    <p class="spec-note">Pieces marked Spec are unofficial concept work. They were not commissioned by, and are not affiliated with, any brand shown.</p>
   </div>
 </section>
 
@@ -159,6 +165,8 @@
     </div>
   </div>
 </footer>
+
+<script src="assets/site.js" defer></script>
 
 </body>
 </html>
